@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93828882916",
+    "project_id": "shopping-app-8289e",
+    "storage_bucket": "shopping-app-8289e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93828882916:android:178800df12c1e58d63a7f1",
+        "android_client_info": {
+          "package_name": "com.example.emailapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFdknncUMileNS4QZZ9kQUA0ru93Ny4mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

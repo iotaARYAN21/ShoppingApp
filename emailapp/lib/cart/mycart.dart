@@ -1,3 +1,4 @@
+import 'package:emailapp/UserService.dart';
 import 'package:emailapp/cart/cart.dart';
 import 'package:emailapp/homepage.dart';
 import 'package:emailapp/product.dart';
@@ -12,9 +13,9 @@ class Mycart extends StatefulWidget {
 }
 
 class _MycartState extends State<Mycart> {
-
-  List<Product> cartItems = Cart().items; // Creating a list of Product type to store the details of the product which can be used to show and manipulate
-
+  final UserService _userService = UserService();
+  // List<Product> _cartItems = Cart().items; // Creating a list of Product type to store the details of the product which can be used to show and manipulate
+  List<Product> _cartItems = [];
 
    int _selectedIndex = 0;
     void _onItemTapped(int index) {
@@ -31,11 +32,30 @@ class _MycartState extends State<Mycart> {
         );
       }
     });}
+
+    @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _fetchCartItems();
+  }
+
+  Future<void> _fetchCartItems() async{
+    List<Product> cartItems = await _userService.fetchCart();
+    setState(() {
+      _cartItems = cartItems;
+    });
+  }
+
+  Future<void> _removeFromCart(Product product) async{
+    await _userService.removeFromCart(product);
+    _fetchCartItems();
+  }
   @override
   
   Widget build(BuildContext context) {
     // Calculate total amount
-    double totalAmount = cartItems.fold(0.0, (sum, item) => sum + item.price);  // variable to store totalAmount of the products
+    double totalAmount = _cartItems.fold(0.0, (sum, item) => sum + item.price);  // variable to store totalAmount of the products
     return Scaffold(                                                    // sum is a double datatype initialized with 0.0
       appBar: AppBar(
         title: Text("My Cart",),
@@ -44,14 +64,15 @@ class _MycartState extends State<Mycart> {
       body: Column(
         children: [
           Expanded(
-            child: ListView.builder(itemCount: cartItems.length, itemBuilder: (context,index){
+            child: ListView.builder(itemCount: _cartItems.length, itemBuilder: (context,index){
               return ListTile(        // returning a listtile to show the image , price and name and delete button
-                leading: Image.asset(cartItems[index].url!),
-                title: Text(cartItems[index].name!),
-                subtitle: Text("₹${cartItems[index].price}"),
+                leading: Image.asset(_cartItems[index].url!),
+                title: Text(_cartItems[index].name!),
+                subtitle: Text("₹${_cartItems[index].price}"),
                 trailing: IconButton(onPressed: (){
                   setState(() {
-                    Cart().removeItem(cartItems[index]);   // when the delete icon is tapped it deletes the particular item from the list
+                    // Cart().removeItem(_cartItems[index]);   // when the delete icon is tapped it deletes the particular item from the list
+                    _removeFromCart(_cartItems[index]);
                   });
                 }, icon: Icon(Icons.delete)),   
               );

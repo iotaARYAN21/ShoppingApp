@@ -46,7 +46,7 @@ class _JacketsState extends State<Jackets> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket1.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket1.png",desc1: "Here goes the description of the product", id: ''))));
                           },  
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -68,7 +68,7 @@ class _JacketsState extends State<Jackets> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket2.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket2.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -96,7 +96,7 @@ class _JacketsState extends State<Jackets> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket3.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket3.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -118,7 +118,7 @@ class _JacketsState extends State<Jackets> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket4.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket4.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -145,7 +145,7 @@ class _JacketsState extends State<Jackets> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket1.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket1.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -167,7 +167,7 @@ class _JacketsState extends State<Jackets> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket2.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket2.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -194,7 +194,7 @@ class _JacketsState extends State<Jackets> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket3.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket3.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -217,7 +217,7 @@ class _JacketsState extends State<Jackets> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket4.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Jacket", price: 123.4, url: "assets/jacket4.png",desc1: "Here goes the description of the product", id: ''))));
                           }, 
                           child: Container(
                             margin: const EdgeInsets.all(5),

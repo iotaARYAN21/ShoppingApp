@@ -48,7 +48,7 @@ class _InCategoryState extends State<InCategory> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Fruitbasket", price: 123.4, url: "assets/grocery.jpg",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Fruitbasket", price: 123.4, url: "assets/grocery.jpg",desc1: "Here goes the description of the Product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -70,7 +70,7 @@ class _InCategoryState extends State<InCategory> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Watermelon", price: 123.4, url: "assets/g1.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Watermelon", price: 123.4, url: "assets/g1.png",desc1: "Here goes the description of the Product", id: ''))));
                           },                          
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -98,7 +98,7 @@ class _InCategoryState extends State<InCategory> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Hazelnut", price: 123.4, url: "assets/hazelnut.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Hazelnut", price: 123.4, url: "assets/hazelnut.png",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -120,7 +120,7 @@ class _InCategoryState extends State<InCategory> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lychee", price: 123.4, url: "assets/lychee.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lychee", price: 123.4, url: "assets/lychee.png",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -147,7 +147,7 @@ class _InCategoryState extends State<InCategory> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Papaya", price: 123.4, url: "assets/papaya.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Papaya", price: 123.4, url: "assets/papaya.png",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -169,7 +169,7 @@ class _InCategoryState extends State<InCategory> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Fruitbasket", price: 123.4, url: "assets/grocery.jpg",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Fruitbasket", price: 123.4, url: "assets/grocery.jpg",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -196,7 +196,7 @@ class _InCategoryState extends State<InCategory> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Watermelon", price: 123.4, url: "assets/g1.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Watermelon", price: 123.4, url: "assets/g1.png",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -219,7 +219,7 @@ class _InCategoryState extends State<InCategory> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Hazelnut", price: 123.4, url: "assets/hazelnut.png",desc1: "Here goes the description of the Product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Hazelnut", price: 123.4, url: "assets/hazelnut.png",desc1: "Here goes the description of the Product", id: ''))));
                           },  
                           child: Container(
                             margin: EdgeInsets.all(5),

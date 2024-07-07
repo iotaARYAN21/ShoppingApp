@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:emailapp/UserService.dart';
 import 'package:emailapp/cart/cart.dart';
 import 'package:emailapp/homepage.dart';
 import 'package:emailapp/cart/mycart.dart';
@@ -15,6 +17,11 @@ class Detailpage extends StatefulWidget {    // page to show details like name d
 
 class _DetailpageState extends State<Detailpage> {
    int _selectedIndex = 0;
+
+  Future<void> addToCart(Product product) async{
+    await FirebaseFirestore.instance.collection('cart').add(product.toFirestore());
+  }
+
     void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -32,6 +39,7 @@ class _DetailpageState extends State<Detailpage> {
 
   @override
   Widget build(BuildContext context) {
+    final UserService userService = UserService();
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text("Details")),
@@ -76,8 +84,10 @@ class _DetailpageState extends State<Detailpage> {
                   ],
               ),
               SizedBox(height: 50,),
-              ElevatedButton(onPressed: (){  // button to add the item being viewed to the cart
-                Cart().addItem(widget.product);
+              ElevatedButton(onPressed: () async{  // button to add the item being viewed to the cart
+                
+                // Cart().addItem(widget.product);
+                await userService.addToCart(widget.product);
                 ScaffoldMessenger.of(context).showSnackBar(   // displays a message when the item is added to cart
                   SnackBar(content: Text('${widget.product.name} added to cart'))
                 );

@@ -45,7 +45,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone1.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone1.png",desc1: "Here goes the description of the product", id: ''))));
                           },     // Sending the details of the product to the detailPage
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -67,7 +67,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone2.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone2.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -95,7 +95,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone3.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone3.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -117,7 +117,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone4.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone4.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -144,7 +144,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone1.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone1.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -166,7 +166,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone2.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone2.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -193,7 +193,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone3.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone3.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),
@@ -216,7 +216,7 @@ class _MobilesState extends State<Mobiles> {   // under different category -> di
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone4.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Phone", price: 123.4, url: "assets/phone4.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: const EdgeInsets.all(5),

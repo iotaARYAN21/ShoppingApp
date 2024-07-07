@@ -45,7 +45,7 @@ class _FurnitureState extends State<Furniture> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f5.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f5.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -67,7 +67,7 @@ class _FurnitureState extends State<Furniture> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f6.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f6.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -95,7 +95,7 @@ class _FurnitureState extends State<Furniture> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f7.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f7.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -117,7 +117,7 @@ class _FurnitureState extends State<Furniture> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f8.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f8.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -144,7 +144,7 @@ class _FurnitureState extends State<Furniture> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f5.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f5.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -166,7 +166,7 @@ class _FurnitureState extends State<Furniture> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f6.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f6.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -193,7 +193,7 @@ class _FurnitureState extends State<Furniture> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f7.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f7.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -216,7 +216,7 @@ class _FurnitureState extends State<Furniture> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 567.8, url: "assets/f8.png",desc1: "Here goes the description of the product"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Furniture", price: 123.4, url: "assets/f8.png",desc1: "Here goes the description of the product", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),

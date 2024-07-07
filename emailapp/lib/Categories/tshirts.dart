@@ -45,7 +45,7 @@ class _TshirtsState extends State<Tshirts> {
                       children: [
                         GestureDetector(
                           onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Puma", price: 123.4, url: "assets/tshirt5.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Puma", price: 123.4, url: "assets/tshirt5.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -67,7 +67,7 @@ class _TshirtsState extends State<Tshirts> {
                         ),
                         GestureDetector(
                           onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Reebok", price: 123.4, url: "assets/tshirt6.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Reebok", price: 123.4, url: "assets/tshirt6.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -95,7 +95,7 @@ class _TshirtsState extends State<Tshirts> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Polo t-shirt", price: 123.4, url: "assets/tshirt7.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Polo t-shirt", price: 123.4, url: "assets/tshirt7.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -117,7 +117,7 @@ class _TshirtsState extends State<Tshirts> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Adidas T-shirt", price: 123.4, url: "assets/tshirt8.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Adidas T-shirt", price: 123.4, url: "assets/tshirt8.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -144,7 +144,7 @@ class _TshirtsState extends State<Tshirts> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Nike T-shirt", price: 123.4, url: "assets/tshirt6.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Nike T-shirt", price: 123.4, url: "assets/tshirt6.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -166,7 +166,7 @@ class _TshirtsState extends State<Tshirts> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-shirt", price: 123.4, url: "assets/tshirt5.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-shirt", price: 123.4, url: "assets/tshirt5.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -193,7 +193,7 @@ class _TshirtsState extends State<Tshirts> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-shirt", price: 123.4, url: "assets/tshirt8.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-shirt", price: 123.4, url: "assets/tshirt8.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -216,7 +216,7 @@ class _TshirtsState extends State<Tshirts> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-Shirt", price: 123.4, url: "assets/tshirt7.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "T-Shirt", price: 123.4, url: "assets/tshirt7.png",desc1: "Here goes the description", id: ''))));
                           },
                           child: Container(
                             margin: EdgeInsets.all(5),

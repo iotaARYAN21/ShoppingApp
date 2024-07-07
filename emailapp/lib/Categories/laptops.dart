@@ -45,7 +45,7 @@ class _LaptopsState extends State<Laptops> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "LOQ", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "LOQ", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -67,7 +67,7 @@ class _LaptopsState extends State<Laptops> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lenovo Yoga", price: 123.4, url: "assets/laptop2.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lenovo Yoga", price: 123.4, url: "assets/laptop2.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -95,7 +95,7 @@ class _LaptopsState extends State<Laptops> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Dell XPS", price: 123.4, url: "assets/laptop3.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Dell XPS", price: 123.4, url: "assets/laptop3.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -117,7 +117,7 @@ class _LaptopsState extends State<Laptops> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Scar", price: 123.4, url: "assets/laptop4.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Scar", price: 123.4, url: "assets/laptop4.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -144,7 +144,7 @@ class _LaptopsState extends State<Laptops> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Asus Rog", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Asus Rog", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -166,7 +166,7 @@ class _LaptopsState extends State<Laptops> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Dell Inspiron", price: 123.4, url: "assets/laptop2.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Dell Inspiron", price: 123.4, url: "assets/laptop2.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -193,7 +193,7 @@ class _LaptopsState extends State<Laptops> {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Asus", price: 123.4, url: "assets/laptop3.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Asus", price: 123.4, url: "assets/laptop3.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
@@ -216,7 +216,7 @@ class _LaptopsState extends State<Laptops> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lenovo", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description"))));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Detailpage(product: Product(name: "Lenovo", price: 123.4, url: "assets/laptop1.png",desc1: "Here goes the description", id: ''))));
                           }, 
                           child: Container(
                             margin: EdgeInsets.all(5),
